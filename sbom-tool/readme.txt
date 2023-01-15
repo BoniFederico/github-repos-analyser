@@ -1,0 +1,1 @@
+In this folder you must insert the sbom-tool executable!
