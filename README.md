@@ -1,7 +1,4 @@
 # GitHub Repository Analyzer
-
-The project was carried out for the master's thesis in computer engineering at the University of Trieste.
-
 # Requirements
 
 ### Python (all notebooks)
