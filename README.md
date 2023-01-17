@@ -56,6 +56,15 @@ However the path obtained is referring to the Linux file system. In order to ope
 ``` bash
 \\wsl$
 ```
+### GitHub Access Token & NVD API Key
+In order to use the GitHub APIs, a personal access token is needed. It can be obtained from your [account settings](https://github.com/settings/tokens). A GitHub access token is **necessary** for *notebook_1* notebooks. 
+
+
+In addition to Grype, other vulnerability sources are used. In particular, for each vulnerability obtained, *notebook_3* notebooks search for further information for that vulnerability using NVD APIs. The public rate limit (without an API key) is 5 requests in a rolling 30 second window. If you want to speed up the process (up to 50 requests in a rolling 30 second window), you can [get an API Key for the NVD APIs](https://nvd.nist.gov/developers/start-here#:~:text=to%20in%20sequence.-,Request%20an%20API%20Key,-On%20the%20API). An NVD API Key is **optional** for *notebook_3* notebooks.
+
+
+For both GitHub Access Token and NVD API Key, once you have obtained them, just follow the instructions that are present in each notebook.
+
 # Database 
 The structure of the database is the following. More information about the tables can be found in the notebook_0 notebook.
 ![db structure](db_images/structure.png?raw=true "Title")
