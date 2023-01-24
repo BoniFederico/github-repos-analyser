@@ -1,0 +1,7 @@
+lib==4.0.0
+matplotlib==3.5.2
+matplotlib_venn==0.11.7
+numpy==1.22.1
+palettable==3.3.0
+plotly==5.10.0
+seaborn==0.12.2
