@@ -72,3 +72,6 @@ The structure of the database is the following. More information about the table
 # Notebook & Database
 The figure below briefly shows which notebooks are in charge of doing what. Arrows specify which database tables are filled by which notebooks.
 ![db structure](db_images/cards.png?raw=true "Title")
+
+# Analyses
+Inside the folder *analyses* a notebook that builds plots from the database is provided. It comes with its relative *requirements.txt* manifest file.
